@@ -1,12 +1,12 @@
 # Blackjack Card Counter
 Welcome to the Blackjack Card Counter project! This project is designed to help you practice and improve your card counting skills in the popular casino card game, Blackjack. By utilizing this card counting system, you'll gain an advantage in determining when the deck is favorable for the player, increasing your chances of winning.
 ## Table of Contents
--Overview
--Installation
--Usage
--Features
--Contributing
--License
+1.Overview
+2.Installation
+3.Usage
+4.Features
+5.Contributing
+6.License
 
 ## Quick start
 
