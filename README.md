@@ -1,16 +1,25 @@
 # Blackjack Card Counter
 Welcome to the Blackjack Card Counter project! This project is designed to help you practice and improve your card counting skills in the popular casino card game, Blackjack. By utilizing this card counting system, you'll gain an advantage in determining when the deck is favorable for the player, increasing your chances of winning.
 ## Table of Contents
-1.Overview
-2.Installation
-3.Usage
-4.Features
-5.Contributing
-6.License
 
-## Quick start
+1. Installation
+2. Usage
+3. Features
+4. Contributing
+5. License
 
-Need Python
+## Installation
+To install and run the Blackjack Card Counter, follow these steps:
+## 1. Clone the repository to your local machine:
+$ git clone https://github.com/yourusername/blackjack-card-counter.git
+
+## 2. Navigate to the project directory:
+$ cd blackjack-card-counter
+
+## 3. You can now run the application using the following command:
+$ python run.py
+
+
 
 1. Clone the repository
 2. run
