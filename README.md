@@ -4,35 +4,31 @@ Welcome to the Blackjack Card Counter project! This project is designed to help 
 
 1. Installation
 2. Usage
-3. Features
-4. Contributing
-5. License
+3. Folder Structure
+4. Bugs and Feature Requests
+5. Contributing
+6. Thanks
+7. Copyright and License
 
-## Installation
+## 1.Installation
 To install and run the Blackjack Card Counter, follow these steps:
-## 1. Clone the repository to your local machine:
+### a. Clone the repository to your local machine:
 $ git clone https://github.com/yourusername/blackjack-card-counter.git
 
-## 2. Navigate to the project directory:
+### b. Navigate to the project directory:
 $ cd blackjack-card-counter
 
-## 3. You can now run the application using the following command:
+### c. You can now run the application using the following command:
 $ python run.py
 
-
-
-1. Clone the repository
-2. run
-'''sh
-run.py
-'''
-
-## Folder structure
+## 2.Usage
+Write text here about usage of project
+## Folder Structure
 
 - In modules there are some helping functions for the run.py
 - in the folder runs i want to make some csv about some games that are on youtube, just to test the algorithm
 
-## Bugs and feature requests
+## Bugs and Feature Requests
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
 
@@ -45,7 +41,7 @@ Feel free to contribute
 
 Some Text
 
-## Copyright and license
+## Copyright and License
 
 Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
 
