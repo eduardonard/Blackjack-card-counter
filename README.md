@@ -1,5 +1,16 @@
 # Blackjack Card Counter
-Welcome to the Blackjack Card Counter project! This project is designed to help you practice and improve your card counting skills in the popular casino card game, Blackjack. By utilizing this card counting system, you'll gain an advantage in determining when the deck is favorable for the player, increasing your chances of winning.
+Welcome to the Blackjack Card Counter project! 
+This project is designed to help you practice and improve your card counting skills in the popular casino card game, Blackjack. 
+By utilizing this card counting system, you'll gain an advantage in determining when the deck is favorable for the player, increasing your chances of winning.
+
+## Milestones
+
+[x] Showing the probability of the next card
+[ ] Showing the chance of winning
+[ ] Showing the chance of winning if `hit`
+[ ] Describing best strategy by card counting
+[ ] Implementation with computer vision to run the program in an online casino
+
 ## Table of Contents
 
 1. Installation
