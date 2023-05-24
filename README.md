@@ -5,11 +5,11 @@ By utilizing this card counting system, you'll gain an advantage in determining 
 
 ## Milestones
 
-[x] Showing the probability of the next card
-[ ] Showing the chance of winning
-[ ] Showing the chance of winning if `hit`
-[ ] Describing best strategy by card counting
-[ ] Implementation with computer vision to run the program in an online casino
+[x] Showing the probability of the next card <br>
+[ ] Showing the chance of winning <br>
+[ ] Showing the chance of winning if `hit` <br>
+[ ] Describing best strategy by card counting <br>
+[ ] Implementation with computer vision to run the program in an online casino <br>
 
 ## Table of Contents
 
