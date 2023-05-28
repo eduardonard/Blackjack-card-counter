@@ -3,6 +3,7 @@ import os
 import plotext as plt
 
 from modules.new_deck import newdeck, cards_per_suit
+
 ###Inputs
 
 
@@ -21,8 +22,11 @@ def sum_of_cards(lis):
     sum = 0
     aces = 0
     for i in lis:
-        if i.upper() != "A":
-            sum += int(i)
+        if i.upper() != "1":
+            if i == "0":
+                sum += 10
+            else:
+                sum += int(i)
         else:
             aces += 1
     if aces == 0:
@@ -44,7 +48,7 @@ def show_probabilities():
 while True:
     clear()
     
-    decision = input("\nTo play press player number \nto show previous card write 'show'\nto shuffle the deck write 'shuffle'\n\n")
+    decision = input("\nTo play press player number \nto show previous card write 'show'\nto shuffle the deck write 'shuffle'\nto add cards from a csv write 'add'\n\n")
     if decision == "shuffle":
             actual_deck = newdeck
             played_cards = []
@@ -53,6 +57,17 @@ while True:
             continue
     elif decision == "show":
         input(f"{played_cards}")
+        continue
+    elif decision == "add":
+        add_cards = []
+        with open("runs/insameblackjackwin.txt", "r") as f:
+            lines = f.read().splitlines()[2:]
+            for i in lines:
+                add_cards.extend(i.split())
+        input("Cards added. Press a key for next game")
+        played_cards.extend(add_cards)
+        continue
+
     clear()
     print("New hand")
     
@@ -60,7 +75,7 @@ while True:
     sum_dict = {}
 
 
-    
+    print("Input cards ")
     for i in range(1, int(decision) + 1):
         players_dict[i] = input(f"Player {i}:  ").split()
         first_card = players_dict[i][0]
