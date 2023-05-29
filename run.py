@@ -42,6 +42,7 @@ def show_probabilities():
         probabilities[i] = probability/10
     plt.clear_data()
     plt.simple_bar(list(probabilities.keys()), list(probabilities.values()))
+    plt.simple_bar(list(probabilities.keys()), list(probabilities.values()))
     plt.show()
 
 
@@ -92,8 +93,6 @@ while True:
     print("------------------------------------------\n\n")
 
     for player in players_dict:
-        
-        
         while True:
             clear()
             print("\n\nRamaining cards")
@@ -101,6 +100,9 @@ while True:
             
             print(f"\nPlayer {player}, cards: {players_dict[player]}")
             static_sum = sum_of_cards(players_dict[player])[0]
+            if player != "Dealer":
+                if static_sum > int(players_dict["Dealer"][0]) + 10:
+                    print("Possibility of winning: High")
             if static_sum < 22:
                 print("Sum: ",static_sum)
             else:
